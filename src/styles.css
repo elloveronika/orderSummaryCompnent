@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../images/pattern-background-desktop.svg);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  font-family: sans-serif;
+  padding: 1rem;
+  /* background: violet; */
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  height: 90vh;
+  width: 100%;
+  border-radius: 10%;
+  overflow: hidden;
+}
+.ladyImg {
+  background-image: url(../images/illustration-hero.svg);
+  object-fit: contain;
+  height: 30vh;
+  width: 100%;
+}
+.content--div {
+  border: solid blue 1px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45vw;
+}
