@@ -3,11 +3,8 @@ import React from "react";
 const Summary = () => {
   return (
     <div className="sum--div">
-      <h1 className="sum--h1">Order Summary</h1>
-      <p className="sum--p">
-        You can now listen to millions of songs audiobooks, and podcasts on any
-        device anywhere you like
-      </p>
+      <h1 className="sum--h1">Happy Valentines</h1>
+      <p className="sum--p">ILY, from foxxy and I</p>
     </div>
   );
 };

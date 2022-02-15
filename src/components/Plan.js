@@ -1,14 +1,17 @@
 import React from "react";
+import iconMusic from "./icon-music.svg";
 
 const Plan = () => {
   return (
     <div className="plan--div">
-      <img src="images/icon-music.svg" />
+      <img src={iconMusic} />
       <div className="plan--annual">
         <h1>Annual Plan</h1>
-        <span>$59.99/year</span>
+        <span className="sum--price">$59.99/year</span>
       </div>
-      <span>Change</span>
+      <div className="plan--change">
+        <h3>Change</h3>
+      </div>
     </div>
   );
 };
